@@ -1,0 +1,274 @@
+{
+  "basics": {
+    "en": {
+      "name": "Muni Besen Ferreira",
+      "country": "Brazil (GMT-3)",
+      "linkedin": "Muni Besen",
+      "linkedin_url": "https://linkedin.com/in/munibesen",
+      "github": "Muni Besen",
+      "github_url": "https://github.com/munibesen",
+      "email": "munibesen@gmail.com",
+      "phone": "+55 (48) 98864-9199",
+      "profile": "Highly skilled software developer with over 7 years of experience in Python, C++, C#, and JavaScript. Proven track record in developing robust web applications using Django, Flask, React and Vue.js, with expertise in PostgreSQL and SQLite, web scraping, ChatGPT integrations, and cybersecurity. Seeking opportunities to leverage my extensive experience and skills in software development and cybersecurity."
+    },
+    "pt": {
+      "name": "Muni Besen Ferreira",
+      "country": "Brasil (GMT-3)",
+      "linkedin": "Muni Besen",
+      "linkedin_url": "https://linkedin.com/in/munibesen",
+      "github": "Muni Besen",
+      "github_url": "https://github.com/munibesen",
+      "email": "munibesen@gmail.com",
+      "phone": "+55 (48) 98864-9199",
+      "profile": "Desenvolvedor de software altamente qualificado com mais de 7 anos de experiência em Python, C++, C# e JavaScript. Comprovado histórico no desenvolvimento de aplicações web robustas usando Django, Flask, React e Vue.js, com expertise em PostgreSQL e SQLite, web scraping, integrações ChatGPT e cibersegurança. Buscando oportunidades para aproveitar minha extensa experiência e habilidades em desenvolvimento de software e cibersegurança."
+    }
+  },
+  "languages": {
+    "en": [
+      {"language": "Portuguese", "level": "Native"},
+      {"language": "English", "level": "Fluent"},
+      {"language": "Spanish", "level": "Intermediate"},
+      {"language": "French", "level": "Intermediate"}
+    ],
+    "pt": [
+      {"language": "Português", "level": "Nativo"},
+      {"language": "Inglês", "level": "Fluente"},
+      {"language": "Espanhol", "level": "Intermediário"},
+      {"language": "Francês", "level": "Intermediário"}
+    ]
+  },
+  "skills": [
+    {"name": "Python", "years": "7+"},
+    {"name": "C#", "years": "7"},
+    {"name": "C++", "years": "4"},
+    {"name": "JavaScript", "years": "4"},
+    {"name": "Lua", "years": "3"},
+    {"name": "Vue.js", "years": "3"},
+    {"name": "React", "years": "2"},
+    {"name": "Django", "years": "6"},
+    {"name": "Flask", "years": "4"},
+    {"name": "Node.js", "years": "3"},
+    {"name": "PostgreSQL", "years": "6"},
+    {"name": "SQL", "years": "6"},
+    {"name": "Selenium", "years": "7+"},
+    {"name": "ChatGPT Integrations", "years": "2"},
+    {"name": "Cybersecurity", "years": "4"},
+    {"name": "Cryptocurrency Consulting & Integration", "years": "5"},
+    {"name": "Data Analysis", "years": "3"},
+    {"name": "Linux", "years": "7+"}
+  ],
+  "experience": {
+    "en": [
+      {
+        "company": "Freelancer",
+        "role": "Freelancer",
+        "period": "January 2017 - Present",
+        "description": "With over 7 years of experience as a freelancer, I have a strong background in Python, C++, C#, JavaScript, React, and Vue.js. My expertise extends to the technical aspects of cryptocurrency and blockchain technology. I am known for my excellent problem-solving abilities and strong communication skills, which complement my technical proficiency.",
+        "responsibilities": [
+          "Developing robust web applications using Django, Flask, React, and Vue.js",
+          "Implementing and maintaining backend systems with PostgreSQL and SQLite",
+          "Conducting web scraping projects to gather and analyze data",
+          "Integrating ChatGPT API for automating user interactions",
+          "Leading small teams and mentoring junior and plain members"
+        ],
+        "tech_stack": "Python, C#, JavaScript, Vue.js, React, Django, PostgreSQL, SQLite, SQL, Selenium, ChatGPT API"
+      },
+      {
+        "company": "WebsiteCentral",
+        "role": "Owner and Developer",
+        "period": "August 2023 - December 2023",
+        "description": "WebsiteCentral is a leading web solutions company, providing cutting-edge designs and innovative approaches in web technology.",
+        "responsibilities": [
+          "Spearheading the development of innovative web solutions and designs",
+          "Overseeing both backend and frontend development to ensure seamless integration",
+          "Delivering projects on time and within scope",
+          "Implementing and maintaining backend systems with PostgreSQL",
+          "Integrating cryptocurrency solutions into web applications",
+          "Leading and mentoring a team of developers to achieve project goals"
+        ],
+        "tech_stack": "HTML, CSS, JavaScript, Vue.js, Django, PostgreSQL, and crypto integration"
+      },
+      {
+        "company": "CryptoFuse",
+        "role": "Owner and Developer",
+        "period": "April 2023 - October 2023",
+        "description": "At CryptoFuse.net, I pioneered a sleek cryptoswap platform using Django and JavaScript. Backed by PostgreSQL and deployed via Heroku. I've spearheaded both backend intricacies and frontend design with HTML & CSS.",
+        "responsibilities": [
+          "Developing and maintaining the cryptoswap platform",
+          "Managing backend and frontend development",
+          "Deploying the platform using Heroku",
+          "Ensuring the platform's security and performance"
+        ],
+        "tech_stack": "Django, JavaScript, PostgreSQL, Heroku, HTML, CSS and crypto integration"
+      },
+      {
+        "company": "IT-MSP",
+        "role": "Information Technology Engineer and Software Developer",
+        "period": "February 2023 - September 2023",
+        "description": "In February 2023, I joined IT-MSP as a Software Developer and IT Specialist, including automation and complex software development.",
+        "responsibilities": [
+          "Developing automated solutions using Python",
+          "Web scraping",
+          "Integrating ChatGPT API",
+          "Conducting daily calls in English to assist with IT support"
+        ],
+        "tech_stack": "Python, ChatGPT API, Selenium, SQLite"
+      },
+      {
+        "company": "In-visible",
+        "role": "Software Developer, IT Consultant",
+        "period": "February 2020 - August 2020",
+        "description": "I worked as a Software Developer and IT Consultant at In-visible.lu in Luxembourg, on-site, from February 2020 to August 2020.",
+        "responsibilities": [
+          "On-site development and implementation of software solutions",
+          "Providing IT consulting services"
+        ],
+        "tech_stack": "Python, Selenium, SQLite"
+      }
+    ],
+    "pt": [
+      {
+        "company": "Freelancer",
+        "role": "Freelancer",
+        "period": "Janeiro 2017 - Presente",
+        "description": "Com mais de 7 anos de experiência como freelancer, tenho uma sólida formação em Python, C++, C#, JavaScript, React e Vue.js. Minha experiência se estende aos aspectos técnicos de criptomoeda e tecnologia blockchain. Sou conhecido por minhas excelentes habilidades de resolução de problemas e forte comunicação, que complementam minha proficiência técnica.",
+        "responsibilities": [
+          "Desenvolvimento de aplicações web robustas usando Django, Flask, React e Vue.js",
+          "Implementação e manutenção de sistemas backend com PostgreSQL e SQLite",
+          "Condução de projetos de web scraping para coletar e analisar dados",
+          "Integração da API ChatGPT para automatizar interações com usuários",
+          "Liderança de pequenas equipes e mentoria de membros juniores e plenos"
+        ],
+        "tech_stack": "Python, C#, JavaScript, Vue.js, React, Django, PostgreSQL, SQLite, SQL, Selenium, API ChatGPT"
+      },
+      {
+        "company": "WebsiteCentral",
+        "role": "Proprietário e Desenvolvedor",
+        "period": "Agosto 2023 - Dezembro 2023",
+        "description": "WebsiteCentral é uma empresa líder em soluções web, fornecendo designs de ponta e abordagens inovadoras em tecnologia web.",
+        "responsibilities": [
+          "Liderando o desenvolvimento de soluções e designs web inovadores",
+          "Supervisionando o desenvolvimento backend e frontend para garantir integração perfeita",
+          "Entregando projetos no prazo e dentro do escopo",
+          "Implementando e mantendo sistemas backend com PostgreSQL",
+          "Integrando soluções de criptomoeda em aplicações web",
+          "Liderando e orientando uma equipe de desenvolvedores para atingir metas de projeto"
+        ],
+        "tech_stack": "HTML, CSS, JavaScript, Vue.js, Django, PostgreSQL e integração de criptomoedas"
+      },
+      {
+        "company": "CryptoFuse",
+        "role": "Proprietário e Desenvolvedor",
+        "period": "Abril 2023 - Outubro 2023",
+        "description": "Na CryptoFuse.net, pioneirei uma plataforma elegante de cryptoswap usando Django e JavaScript. Respaldada por PostgreSQL e implantada via Heroku. Liderei tanto as complexidades de backend quanto o design de frontend com HTML e CSS.",
+        "responsibilities": [
+          "Desenvolvimento e manutenção da plataforma cryptoswap",
+          "Gerenciamento do desenvolvimento backend e frontend",
+          "Implantação da plataforma usando Heroku",
+          "Garantia da segurança e desempenho da plataforma"
+        ],
+        "tech_stack": "Django, JavaScript, PostgreSQL, Heroku, HTML, CSS e integração de criptomoedas"
+      },
+      {
+        "company": "IT-MSP",
+        "role": "Engenheiro de Tecnologia da Informação e Desenvolvedor de Software",
+        "period": "Fevereiro 2023 - Setembro 2023",
+        "description": "Em fevereiro de 2023, ingressei na IT-MSP como Desenvolvedor de Software e Especialista em TI, incluindo automação e desenvolvimento de software complexo.",
+        "responsibilities": [
+          "Desenvolvimento de soluções automatizadas usando Python",
+          "Web scraping",
+          "Integração da API ChatGPT",
+          "Realização de chamadas diárias em inglês para auxiliar com suporte de TI"
+        ],
+        "tech_stack": "Python, API ChatGPT, Selenium, SQLite"
+      },
+      {
+        "company": "In-visible",
+        "role": "Desenvolvedor de Software, Consultor de TI",
+        "period": "Fevereiro 2020 - Agosto 2020",
+        "description": "Trabalhei como Desenvolvedor de Software e Consultor de TI na In-visible.lu em Luxemburgo, presencialmente, de fevereiro de 2020 a agosto de 2020.",
+        "responsibilities": [
+          "Desenvolvimento local e implementação de soluções de software",
+          "Prestação de serviços de consultoria em TI"
+        ],
+        "tech_stack": "Python, Selenium, SQLite"
+      }
+    ]
+  },
+  "education": {
+    "en": [
+      {
+        "institution": "Enap - Data Analysis, and Programming",
+        "degree": "",
+        "period": "August 2023 - September 2023",
+        "description": "Completed a 124-hour course focusing on data analytics, governance, and the R programming language."
+      },
+      {
+        "institution": "Master Professional Qualification - Professional Programmer",
+        "degree": "",
+        "period": "July 2022 - December 2022",
+        "description": "Completed an 88-hour course covering programming logic, SQL databases, and advanced C# programming."
+      },
+      {
+        "institution": "Escola Secundária Luís de Freitas Branco - Portugal",
+        "degree": "",
+        "period": "September 2020 - July 2021",
+        "description": "Secondary education with a focus on foundational subjects for higher education in technology."
+      },
+      {
+        "institution": "ECG - School of Business and Management - Luxembourg",
+        "degree": "",
+        "period": "September 2019 - June 2020",
+        "description": "Gained essential business and management skills to complement my technical expertise."
+      }
+    ],
+    "pt": [
+      {
+        "institution": "Enap - Análise de Dados e Programação",
+        "degree": "",
+        "period": "Agosto 2023 - Setembro 2023",
+        "description": "Concluí um curso de 124 horas com foco em análise de dados, governança e linguagem de programação R."
+      },
+      {
+        "institution": "Qualificação Profissional Master - Programador Profissional",
+        "degree": "",
+        "period": "Julho 2022 - Dezembro 2022",
+        "description": "Concluí um curso de 88 horas abrangendo lógica de programação, bancos de dados SQL e programação avançada em C#."
+      },
+      {
+        "institution": "Escola Secundária Luís de Freitas Branco - Portugal",
+        "degree": "",
+        "period": "Setembro 2020 - Julho 2021",
+        "description": "Ensino secundário com foco em disciplinas fundamentais para educação superior em tecnologia."
+      },
+      {
+        "institution": "ECG - Escola de Negócios e Gestão - Luxemburgo",
+        "degree": "",
+        "period": "Setembro 2019 - Junho 2020",
+        "description": "Adquiri habilidades essenciais de negócios e gestão para complementar minha experiência técnica."
+      }
+    ]
+  },
+  "certifications": {
+    "en": [
+      "AWS Certified Cloud Practitioner",
+      "Building Vue and Node Apps with Authentication",
+      "Web Scraping with Python",
+      "Advanced Django Project: Building High-Traffic Websites with Django",
+      "JavaScript as a Second Language",
+      "Building Applications with Vue and Node.js",
+      "Data Analysis - Fundamentals (Enap)",
+      "Professional Programmer, Computer Programming (Master Professional Qualification)"
+    ],
+    "pt": [
+      "AWS Certified Cloud Practitioner",
+      "Construindo Aplicativos Vue e Node com Autenticação",
+      "Web Scraping com Python",
+      "Projeto Django Avançado: Construindo Sites de Alto Tráfego com Django",
+      "JavaScript como Segunda Linguagem",
+      "Construindo Aplicações com Vue e Node.js",
+      "Análise de Dados - Fundamentos (Enap)",
+      "Programador Profissional, Programação de Computadores (Qualificação Profissional Master)"
+    ]
+  }
+} 
