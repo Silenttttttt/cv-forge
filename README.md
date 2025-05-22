@@ -13,7 +13,7 @@ A modern, customizable CV/resume generator built with React that creates beautif
 
 ## Preview
 
-![CV Preview](preview.png)
+![CV Preview](cv-muni-besen-ferreira.pdf)
 
 ## Installation
 
@@ -75,11 +75,3 @@ npm run build
 - @react-pdf/renderer for PDF generation
 - Webpack
 - Node.js (Express server)
-
-## License
-
-MIT
-
-## Author
-
-Created with ❤️ by Muni Besen Ferreira 
