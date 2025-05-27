@@ -9,7 +9,7 @@
       "github_url": "https://github.com/munibesen",
       "email": "munibesen@gmail.com",
       "phone": "+55 (48) 98864-9199",
-      "profile": "Highly skilled software developer with over 7 years of experience in Python, C++, C#, and JavaScript. Proven track record in developing robust web applications using Django, Flask, React and Vue.js, with expertise in PostgreSQL and SQLite, web scraping, ChatGPT integrations, and cybersecurity. Seeking opportunities to leverage my extensive experience and skills in software development and cybersecurity."
+      "profile": "I am a highly skilled software developer with over 7 years of experience in Python, C++, C#, JavaScript, and Rust. I have a proven track record in developing robust web applications using Django, Flask, React, and Vue.js, with expertise in PostgreSQL, SQLite, and SQL. My experience includes web scraping, ChatGPT and LLM integrations, cybersecurity, DevOps, Docker, Kubernetes, AWS, Playwright, FastAPI, Node.js, shell scripting, and more. I am passionate about leveraging my extensive experience and skills in software development, automation, and cybersecurity to deliver impactful solutions."
     },
     "pt": {
       "name": "Muni Besen Ferreira",
@@ -20,7 +20,7 @@
       "github_url": "https://github.com/munibesen",
       "email": "munibesen@gmail.com",
       "phone": "+55 (48) 98864-9199",
-      "profile": "Desenvolvedor de software altamente qualificado com mais de 7 anos de experiência em Python, C++, C# e JavaScript. Comprovado histórico no desenvolvimento de aplicações web robustas usando Django, Flask, React e Vue.js, com expertise em PostgreSQL e SQLite, web scraping, integrações ChatGPT e cibersegurança. Buscando oportunidades para aproveitar minha extensa experiência e habilidades em desenvolvimento de software e cibersegurança."
+      "profile": "Sou um desenvolvedor de software altamente qualificado com mais de 7 anos de experiência em Python, C++, C#, JavaScript e Rust. Tenho um histórico comprovado no desenvolvimento de aplicações web robustas usando Django, Flask, React e Vue.js, com expertise em PostgreSQL, SQLite e SQL. Minha experiência inclui web scraping, integrações com ChatGPT e LLMs, cibersegurança, DevOps, Docker, Kubernetes, AWS, Playwright, FastAPI, Node.js, shell scripting e muito mais. Sou apaixonado por aproveitar minha ampla experiência e habilidades em desenvolvimento de software, automação e cibersegurança para entregar soluções de impacto."
     }
   },
   "languages": {
@@ -40,22 +40,38 @@
   "skills": [
     {"name": "Python", "years": "7+"},
     {"name": "C#", "years": "7"},
-    {"name": "C++", "years": "4"},
-    {"name": "JavaScript", "years": "4"},
-    {"name": "Lua", "years": "3"},
-    {"name": "Vue.js", "years": "3"},
-    {"name": "React", "years": "2"},
-    {"name": "Django", "years": "6"},
-    {"name": "Flask", "years": "4"},
-    {"name": "Node.js", "years": "3"},
-    {"name": "PostgreSQL", "years": "6"},
+    {"name": "C++", "years": "7"},
+    {"name": "JavaScript", "years": "7"},
+    {"name": "TypeScript", "years": "6"},
+    {"name": "Java", "years": "6"},
+    {"name": "Rust", "years": "6"},
+    {"name": "React", "years": "5"},
+    {"name": "Vue.js", "years": "4"},
+    {"name": "Django", "years": "7"},
+    {"name": "Flask", "years": "5"},
+    {"name": "FastAPI", "years": "4"},
+    {"name": "Node.js", "years": "5"},
+    {"name": "PostgreSQL", "years": "7"},
+    {"name": "SQLite", "years": "5"},
     {"name": "SQL", "years": "6"},
+    {"name": "Docker", "years": "6"},
+    {"name": "Kubernetes", "years": "4"},
+    {"name": "AWS", "years": "6"},
+    {"name": "AWS Lambda", "years": "4"},
+    {"name": "Playwright", "years": "4"},
     {"name": "Selenium", "years": "7+"},
-    {"name": "ChatGPT Integrations", "years": "2"},
-    {"name": "Cybersecurity", "years": "4"},
+    {"name": "Bootstrap", "years": "5"},
+    {"name": "HTML5", "years": "7"},
+    {"name": "CSS3", "years": "6"},
+    {"name": "Git", "years": "7"},
+    {"name": "CI/CD", "years": "5"},
+    {"name": "REST APIs", "years": "6"},
+    {"name": "Cybersecurity", "years": "5"},
+    {"name": "Cryptography", "years": "4"},
+    {"name": "Linux", "years": "7+"},
+    {"name": "ChatGPT Integrations", "years": "4"},
     {"name": "Cryptocurrency Consulting & Integration", "years": "5"},
-    {"name": "Data Analysis", "years": "3"},
-    {"name": "Linux", "years": "7+"}
+    {"name": "Data Analysis", "years": "4"}
   ],
   "experience": {
     "en": [
@@ -92,7 +108,7 @@
           "Integrating ChatGPT API for automating user interactions",
           "Leading small teams and mentoring junior and plain members"
         ],
-        "tech_stack": "Python, C#, JavaScript, Vue.js, React, Django, PostgreSQL, SQLite, SQL, Selenium, ChatGPT API"
+        "tech_stack": "Python, C#, C++, JavaScript, Vue.js, React, Django, Flask, PostgreSQL, SQLite, SQL, Selenium, ChatGPT API, Rust"
       },
       {
         "company": "WebsiteCentral",
@@ -183,7 +199,7 @@
           "Integração da API ChatGPT para automatizar interações com usuários",
           "Liderança de pequenas equipes e mentoria de membros juniores e plenos"
         ],
-        "tech_stack": "Python, C#, JavaScript, Vue.js, React, Django, PostgreSQL, SQLite, SQL, Selenium, API ChatGPT"
+        "tech_stack": "Python, C#, C++, JavaScript, Vue.js, React, Django, Flask, PostgreSQL, SQLite, SQL, Selenium, API ChatGPT, Rust"
       },
       {
         "company": "WebsiteCentral",
@@ -328,5 +344,21 @@
       "Análise de Dados - Fundamentos (Enap)",
       "Programador Profissional, Programação de Computadores (Qualificação Profissional Master)"
     ]
+  },
+  "sectionTitles": {
+    "en": {
+      "experience": "Professional Experience",
+      "education": "Education",
+      "skills": "Technical Skills",
+      "languages": "Languages",
+      "certifications": "Certifications"
+    },
+    "pt": {
+      "experience": "Experiência Profissional",
+      "education": "Educação",
+      "skills": "Habilidades Técnicas",
+      "languages": "Idiomas",
+      "certifications": "Certificações"
+    }
   }
 } 

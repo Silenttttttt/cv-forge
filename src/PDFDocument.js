@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
   },
   sectionTitle: {
-    fontSize: 15,
+    fontSize: 20,
     marginBottom: 8,
     fontWeight: 'bold',
     color: colors.primary,
@@ -138,6 +138,20 @@ const styles = StyleSheet.create({
     fontSize: 9,
     marginBottom: 3,
     lineHeight: 1.3,
+    color: colors.text,
+  },
+  // PT-BR specific styles for more compact rendering
+  ptListItem: {
+    fontSize: 9,
+    marginBottom: 2,
+    lineHeight: 1.2,
+    color: colors.text,
+  },
+  ptJobDescription: {
+    fontSize: 9,
+    marginBottom: 2,
+    textAlign: 'justify',
+    lineHeight: 1.2,
     color: colors.text,
   },
   // Table-like skills layout
@@ -371,7 +385,6 @@ const PDFDocument = ({ data, language = 'en' }) => {
 
         {/* Profile Section */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>{titles.profile}</Text>
           <Text style={styles.profileText}>{basics.profile}</Text>
         </View>
 
@@ -450,21 +463,21 @@ const PDFDocument = ({ data, language = 'en' }) => {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{titles.experience}</Text>
           {experience.map((job, index) => (
-            <View key={index} style={{ marginBottom: 12 }}>
+            <View key={index} style={{ marginBottom: language === 'pt' ? 10 : 14 }} wrap={false}>
               <Text style={styles.jobCompany}>{job.company}</Text>
               <Text style={styles.jobRole}>{job.role}</Text>
               <Text style={styles.jobPeriod}>{job.period}</Text>
-              <Text style={styles.jobDescription}>{job.description}</Text>
+              <Text style={language === 'pt' ? styles.ptJobDescription : styles.jobDescription}>{job.description}</Text>
               
               {job.responsibilities && job.responsibilities.length > 0 && (
                 <View style={styles.list}>
                   {job.responsibilities.map((resp, idx) => (
-                    <Text key={idx} style={styles.listItem}>• {resp}</Text>
+                    <Text key={idx} style={language === 'pt' ? styles.ptListItem : styles.listItem}>• {resp}</Text>
                   ))}
                 </View>
               )}
               
-              <Text style={{ ...styles.listItem, marginTop: 3 }}>
+              <Text style={{ ...(language === 'pt' ? styles.ptListItem : styles.listItem), marginTop: language === 'pt' ? 2 : 3 }}>
                 <Text style={{ fontWeight: 'bold' }}>Tech Stack: </Text>
                 {job.tech_stack}
               </Text>
