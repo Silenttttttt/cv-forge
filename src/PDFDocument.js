@@ -1,259 +1,40 @@
 import React from 'react';
-import { Document, Page, Text, View, StyleSheet, Image, Font, Link } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet, Image, Link } from '@react-pdf/renderer';
 // Import the config
-import { colors, tableStyles, textFormatting, sectionTitles, tableHeaders, contactOptions } from './config';
+import { sectionTitles, tableHeaders } from './config';
 // Import images
 import linkedinImage from '../public/images/linkedin.jpg';
 import whatsappImage from '../public/images/WhatsApp.png';
 
-// Register fonts (optional - uncomment and customize if you have font files)
-// Font.register({
-//   family: 'Open Sans',
-//   fonts: [
-//     { src: './fonts/OpenSans-Regular.ttf' },
-//     { src: './fonts/OpenSans-Bold.ttf', fontWeight: 'bold' },
-//   ],
-// });
-
-// Styles for the PDF
-const styles = StyleSheet.create({
-  page: {
-    flexDirection: 'column',
-    backgroundColor: colors.background,
-    padding: 30,
-    fontFamily: 'Helvetica',
-  },
-  header: {
-    marginBottom: 25,
-    borderBottomWidth: 2,
-    borderBottomColor: colors.primary,
-    borderBottomStyle: 'solid',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    paddingBottom: 15,
-  },
-  headerLeft: {
-    flexDirection: 'column',
-    width: '70%',
-  },
-  headerRight: {
-    flexDirection: 'column',
-    alignItems: 'flex-end',
-    width: '30%',
-  },
-  profileImage: {
-    width: 90,
-    height: 90,
-    borderRadius: 45,
-    marginBottom: 10,
-    alignSelf: 'flex-end',
-    objectFit: 'cover',
-    border: `1px solid ${colors.border}`,
-  },
-  name: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    marginBottom: 8,
-    color: colors.primary,
-  },
-  subtitle: {
-    fontSize: 12,
-    marginBottom: 10,
-    color: colors.secondary,
-  },
-  contactInfo: {
-    fontSize: 10,
-    marginBottom: 4,
-    color: colors.text,
-  },
-  contactLink: {
-    textDecoration: 'underline',
-    color: colors.highlight,
-  },
-  contactRow: {
-    flexDirection: 'row',
-    justifyContent: 'flex-end',
-    alignItems: 'center',
-    marginBottom: 3,
-  },
-  contactLabel: {
-    fontSize: 10,
-    fontWeight: 'bold',
-    marginRight: 5,
-    color: colors.text,
-  },
-  contactValue: {
-    fontSize: 10,
-    color: colors.text,
-  },
-  section: {
-    marginBottom: 15,
-  },
-  sectionTitle: {
-    fontSize: 15,
-    marginBottom: 8,
-    fontWeight: 'bold',
-    color: colors.primary,
-    borderBottomWidth: 1,
-    borderBottomColor: colors.primary,
-    borderBottomStyle: 'solid',
-    paddingBottom: 3,
-  },
-  profileText: {
-    fontSize: 10,
-    marginBottom: 10,
-    textAlign: 'justify',
-    lineHeight: 1.6,
-    color: colors.text,
-  },
-  jobTitle: {
-    fontSize: 13,
-    marginBottom: 3,
-    color: colors.text,
-  },
-  jobCompany: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    marginBottom: 2,
-    color: colors.primary,
-  },
-  jobPeriod: {
-    fontSize: 9,
-    color: colors.lightText,
-    marginBottom: 3,
-    fontStyle: 'italic',
-  },
-  jobDescription: {
-    fontSize: 9,
-    marginBottom: 3,
-    textAlign: 'justify',
-    lineHeight: 1.4,
-    color: colors.text,
-  },
-  list: {
-    marginLeft: 10,
-    marginTop: 3,
-  },
-  listItem: {
-    fontSize: 9,
-    marginBottom: 3,
-    lineHeight: 1.3,
-    color: colors.text,
-  },
-  // Table-like skills layout
-  skillsTable: {
-    display: 'flex',
-    flexDirection: 'column',
-    marginTop: 5,
-    width: '100%',
-    borderWidth: 1,
-    borderColor: tableStyles.borderColor,
-  },
-  skillRow: {
-    flexDirection: 'row',
-    borderBottomWidth: 1,
-    borderBottomColor: tableStyles.borderColor,
-    paddingVertical: 2,
-  },
-  skillRowEven: {
-    backgroundColor: tableStyles.evenRowBackground,
-  },
-  skillRowOdd: {
-    backgroundColor: tableStyles.oddRowBackground,
-  },
-  skillCol: {
-    padding: 3,
-    borderRightWidth: 1,
-    borderRightColor: tableStyles.borderColor,
-    justifyContent: 'center',
-  },
-  skillName: {
-    fontSize: 9,
-    color: colors.text,
-    fontWeight: 'bold',
-  },
-  skillYears: {
-    fontSize: 9,
-    textAlign: 'center',
-  },
-  
-  // Table headers
-  tableHeader: {
-    flexDirection: 'row', 
-    backgroundColor: tableStyles.headerBackground,
-    padding: 5,
-  },
-  headerCell: {
-    color: tableStyles.headerTextColor,
-    fontSize: 9,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    borderRightWidth: 1,
-    borderRightColor: tableStyles.headerTextColor,
-  },
-  
-  // Languages section styled as a proper table
-  languagesTable: {
-    marginTop: 8,
-  },
-  languageRow: {
-    marginBottom: 4,
-  },
-  languageItem: {
-    flexDirection: 'row',
-    marginBottom: 2,
-  },
-  languageName: {
-    fontSize: 10,
-    fontWeight: 'bold',
-    marginRight: 5,
-  },
-  languageLevel: {
-    fontSize: 10,
-  },
-  footer: {
-    position: 'absolute',
-    bottom: 30,
-    left: 30,
-    right: 30,
-    textAlign: 'center',
-    fontSize: 8,
-    color: colors.lightText,
-    paddingTop: 10,
-    borderTopWidth: 1,
-    borderTopColor: colors.border,
-    borderTopStyle: 'solid',
-  },
-  jobRole: {
-    fontSize: 12,
-    fontStyle: 'italic',
-    marginBottom: 3,
-    color: colors.secondary,
-  },
-  // Social media links
-  socialLinks: {
-    marginTop: 5,
-  },
-  socialLink: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginBottom: 4,
-  },
-  socialIcon: {
-    width: 12,
-    height: 12,
-    marginRight: 4,
-    objectFit: 'contain',
-  },
-  whatsappLink: {
-    display: 'flex',
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-});
-
 // Component to generate the PDF
-const PDFDocument = ({ data, language = 'en' }) => {
+const PDFDocument = ({
+  data,
+  language = 'en',
+  primaryColor,
+  secondaryColor,
+  backgroundColor,
+  textColor,
+  lightTextColor,
+  highlightColor,
+  borderColor,
+  headerBackground,
+  headerTextColor,
+  evenRowBackground,
+  oddRowBackground,
+  tableBorderColor,
+  addHyphenToSkills,
+  addColonToSkills,
+  addColonToLanguages,
+  addYearsTextToExperience,
+  showSkillYearsInParentheses,
+  capitalizeSkillNames,
+  showBulletPoints,
+  showTechStackInItalics,
+  enableWhatsApp,
+  enableEmail,
+  enableLinkedIn,
+  enableGitHub
+}) => {
   // Get localized data
   const basics = data.basics[language];
   const languages = data.languages[language];
@@ -271,7 +52,7 @@ const PDFDocument = ({ data, language = 'en' }) => {
 
   // Format skill years display to include "years" text
   const formatSkillYears = (years) => {
-    if (!textFormatting.addYearsTextToExperience) return years;
+    if (!addYearsTextToExperience) return years;
     
     // If already contains "years" or has a "+" sign, return as is
     if (years.includes('years') || years.includes('year')) return years;
@@ -284,10 +65,11 @@ const PDFDocument = ({ data, language = 'en' }) => {
   // Format skill name with optional hyphen and colon
   const formatSkillName = (name) => {
     let formattedName = name;
-    if (textFormatting.addHyphenToSkills) {
+    if (capitalizeSkillNames) formattedName = formattedName.charAt(0).toUpperCase() + formattedName.slice(1);
+    if (addHyphenToSkills) {
       formattedName = `- ${formattedName}`;
     }
-    if (textFormatting.addColonToSkills) {
+    if (addColonToSkills) {
       formattedName = `${formattedName}:`;
     }
     return formattedName;
@@ -296,7 +78,7 @@ const PDFDocument = ({ data, language = 'en' }) => {
   // Format language name with optional colon
   const formatLanguageName = (name) => {
     let formattedName = name;
-    if (textFormatting.addColonToLanguages) {
+    if (addColonToLanguages) {
       formattedName = `${formattedName}:`;
     }
     return formattedName;
@@ -310,6 +92,244 @@ const PDFDocument = ({ data, language = 'en' }) => {
   // Generate WhatsApp link
   const whatsappLink = `https://wa.me/${formatPhoneForWhatsApp(basics.phone)}`;
 
+  // Create styles with the provided color scheme
+  const styles = StyleSheet.create({
+    page: {
+      flexDirection: 'column',
+      backgroundColor: backgroundColor,
+      padding: 30,
+      fontFamily: 'Helvetica',
+    },
+    header: {
+      marginBottom: 25,
+      borderBottomWidth: 2,
+      borderBottomColor: primaryColor,
+      borderBottomStyle: 'solid',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      paddingBottom: 15,
+    },
+    headerLeft: {
+      flexDirection: 'column',
+      width: '70%',
+    },
+    headerRight: {
+      flexDirection: 'column',
+      alignItems: 'flex-end',
+      width: '30%',
+    },
+    profileImage: {
+      width: 90,
+      height: 90,
+      borderRadius: 45,
+      marginBottom: 10,
+      alignSelf: 'flex-end',
+      objectFit: 'cover',
+      border: `1px solid ${borderColor}`,
+    },
+    name: {
+      fontSize: 28,
+      fontWeight: 'bold',
+      marginBottom: 8,
+      color: primaryColor,
+    },
+    subtitle: {
+      fontSize: 12,
+      marginBottom: 10,
+      color: secondaryColor,
+    },
+    contactInfo: {
+      fontSize: 10,
+      marginBottom: 4,
+      color: textColor,
+    },
+    contactLink: {
+      textDecoration: 'underline',
+      color: highlightColor,
+    },
+    contactRow: {
+      flexDirection: 'row',
+      justifyContent: 'flex-end',
+      alignItems: 'center',
+      marginBottom: 3,
+    },
+    contactLabel: {
+      fontSize: 10,
+      fontWeight: 'bold',
+      marginRight: 5,
+      color: textColor,
+    },
+    contactValue: {
+      fontSize: 10,
+      color: textColor,
+    },
+    section: {
+      marginBottom: 15,
+    },
+    sectionTitle: {
+      fontSize: 15,
+      marginBottom: 8,
+      fontWeight: 'bold',
+      color: primaryColor,
+      borderBottomWidth: 1,
+      borderBottomColor: primaryColor,
+      borderBottomStyle: 'solid',
+      paddingBottom: 3,
+    },
+    profileText: {
+      fontSize: 10,
+      marginBottom: 10,
+      textAlign: 'justify',
+      lineHeight: 1.6,
+      color: textColor,
+    },
+    jobTitle: {
+      fontSize: 13,
+      marginBottom: 3,
+      color: textColor,
+    },
+    jobCompany: {
+      fontSize: 16,
+      fontWeight: 'bold',
+      marginBottom: 2,
+      color: primaryColor,
+    },
+    jobPeriod: {
+      fontSize: 9,
+      color: lightTextColor,
+      marginBottom: 3,
+      fontStyle: 'italic',
+    },
+    jobDescription: {
+      fontSize: 9,
+      marginBottom: 3,
+      textAlign: 'justify',
+      lineHeight: 1.4,
+      color: textColor,
+    },
+    list: {
+      marginLeft: 10,
+      marginTop: 3,
+    },
+    listItem: {
+      fontSize: 9,
+      marginBottom: 3,
+      lineHeight: 1.3,
+      color: textColor,
+      fontStyle: showTechStackInItalics ? 'italic' : 'normal',
+    },
+    // Table-like skills layout
+    skillsTable: {
+      display: 'flex',
+      flexDirection: 'column',
+      marginTop: 5,
+      width: '100%',
+      borderWidth: 1,
+      borderColor: tableBorderColor,
+    },
+    skillRow: {
+      flexDirection: 'row',
+      borderBottomWidth: 1,
+      borderBottomColor: tableBorderColor,
+      paddingVertical: 2,
+    },
+    skillRowEven: {
+      backgroundColor: evenRowBackground,
+    },
+    skillRowOdd: {
+      backgroundColor: oddRowBackground,
+    },
+    skillCol: {
+      padding: 3,
+      borderRightWidth: 1,
+      borderRightColor: tableBorderColor,
+      justifyContent: 'center',
+    },
+    skillName: {
+      fontSize: 9,
+      color: textColor,
+      fontWeight: 'bold',
+    },
+    skillYears: {
+      fontSize: 9,
+      textAlign: 'center',
+    },
+    
+    // Table headers
+    tableHeader: {
+      flexDirection: 'row', 
+      backgroundColor: headerBackground,
+      padding: 5,
+    },
+    headerCell: {
+      color: headerTextColor,
+      fontSize: 9,
+      fontWeight: 'bold',
+      textAlign: 'center',
+      borderRightWidth: 1,
+      borderRightColor: headerTextColor,
+    },
+    
+    // Languages section styled as a proper table
+    languagesTable: {
+      marginTop: 8,
+    },
+    languageRow: {
+      marginBottom: 4,
+    },
+    languageItem: {
+      flexDirection: 'row',
+      marginBottom: 2,
+    },
+    languageName: {
+      fontSize: 10,
+      fontWeight: 'bold',
+      marginRight: 5,
+    },
+    languageLevel: {
+      fontSize: 10,
+    },
+    footer: {
+      position: 'absolute',
+      bottom: 30,
+      left: 30,
+      right: 30,
+      textAlign: 'center',
+      fontSize: 8,
+      color: lightTextColor,
+      paddingTop: 10,
+      borderTopWidth: 1,
+      borderTopColor: borderColor,
+      borderTopStyle: 'solid',
+    },
+    jobRole: {
+      fontSize: 12,
+      fontStyle: 'italic',
+      marginBottom: 3,
+      color: secondaryColor,
+    },
+    // Social media links
+    socialLinks: {
+      marginTop: 5,
+    },
+    socialLink: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginBottom: 4,
+    },
+    socialIcon: {
+      width: 12,
+      height: 12,
+      marginRight: 4,
+      objectFit: 'contain',
+    },
+    whatsappLink: {
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+  });
+
   return (
     <Document>
       <Page size="A4" style={styles.page} wrap>
@@ -321,7 +341,7 @@ const PDFDocument = ({ data, language = 'en' }) => {
             
             {/* Social Links */}
             <View style={styles.socialLinks}>
-              {contactOptions.enableLinkedIn && (
+              {enableLinkedIn && (
                 <View style={styles.socialLink}>
                   <Text style={styles.contactInfo}>
                     LinkedIn: <Link src="https://www.linkedin.com/in/muni-besen/" style={styles.contactLink}>{basics.linkedin}</Link>
@@ -329,7 +349,7 @@ const PDFDocument = ({ data, language = 'en' }) => {
                 </View>
               )}
               
-              {contactOptions.enableGitHub && (
+              {enableGitHub && (
                 <View style={styles.socialLink}>
                   <Text style={styles.contactInfo}>
                     GitHub: <Link src="https://github.com/silenttttttt" style={styles.contactLink}>{basics.github}</Link>
@@ -337,7 +357,7 @@ const PDFDocument = ({ data, language = 'en' }) => {
                 </View>
               )}
               
-              {contactOptions.enableWhatsApp && (
+              {enableWhatsApp && (
                 <View style={styles.socialLink}>
                   <View style={{flexDirection: 'row', alignItems: 'center'}}>
                     <Image src={whatsappImage} style={{width: 12, height: 12, marginRight: 4}} />
@@ -354,7 +374,7 @@ const PDFDocument = ({ data, language = 'en' }) => {
             <Image style={styles.profileImage} src={linkedinImage} />
             
             {/* Contact Info */}
-            {contactOptions.enableEmail && (
+            {enableEmail && (
               <Text style={styles.contactInfo}>Email: {basics.email}</Text>
             )}
             

@@ -20,6 +20,42 @@ const colorSchemes = {
     highlight: '#E63946',
     border: '#dddddd',
   },
+  modern: {
+    primary: '#2C3E50',
+    secondary: '#3498DB',
+    background: '#FFFFFF',
+    text: '#2C3E50',
+    lightText: '#7F8C8D',
+    highlight: '#E74C3C',
+    border: '#ECF0F1',
+  },
+  minimal: {
+    primary: '#000000',
+    secondary: '#666666',
+    background: '#FFFFFF',
+    text: '#333333',
+    lightText: '#999999',
+    highlight: '#000000',
+    border: '#EEEEEE',
+  },
+  dark: {
+    primary: '#E0E0E0',
+    secondary: '#BDBDBD',
+    background: '#212121',
+    text: '#E0E0E0',
+    lightText: '#BDBDBD',
+    highlight: '#64B5F6',
+    border: '#424242',
+  },
+  nature: {
+    primary: '#2E7D32',
+    secondary: '#558B2F',
+    background: '#FFFFFF',
+    text: '#1B5E20',
+    lightText: '#558B2F',
+    highlight: '#43A047',
+    border: '#C8E6C9',
+  }
 };
 
 // Active color scheme
@@ -44,7 +80,7 @@ const tableStyles = {
   headerTextColor: 'white',
   evenRowBackground: '#f8f9fa',
   oddRowBackground: '#ffffff',
-  borderColor: colors.border,
+  borderColor: '#dddddd',
 };
 
 // Text formatting options
@@ -57,6 +93,14 @@ const textFormatting = {
   addColonToLanguages: true,
   // Whether to add "years" text to experience values
   addYearsTextToExperience: true,
+  // Whether to show skill years in parentheses
+  showSkillYearsInParentheses: false,
+  // Whether to capitalize skill names
+  capitalizeSkillNames: true,
+  // Whether to show bullet points for responsibilities
+  showBulletPoints: true,
+  // Whether to show tech stack in italics
+  showTechStackInItalics: true,
 };
 
 // Section titles based on language
