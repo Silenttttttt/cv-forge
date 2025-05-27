@@ -60,6 +60,27 @@
   "experience": {
     "en": [
       {
+        "company": "Tributo Devido",
+        "role": "Software Developer",
+        "period": "January 2025 - Present",
+        "description": "Working as a Software Developer at Tributo Devido, a fintech company, where I contribute to building scalable and secure financial technology solutions. My role encompasses full-stack development, DevOps practices, and system architecture design.",
+        "responsibilities": [
+          "Developing and maintaining microservices and monolithic applications using Python, Django, FastAPI, and React",
+          "Implementing automation solutions using Playwright for testing and process optimization",
+          "Designing and managing cloud infrastructure on AWS (EC2, Lambda, EKS, S3, CloudWatch)",
+          "Setting up and maintaining CI/CD pipelines for continuous integration and deployment",
+          "Integrating LLM and AI solutions to enhance system capabilities",
+          "Managing containerized applications using Docker and Kubernetes",
+          "Implementing responsive frontend designs using Bootstrap, TypeScript, and modern CSS",
+          "Developing RESTful APIs and ensuring system scalability",
+          "Performing data modeling and database optimization with PostgreSQL",
+          "Implementing monitoring and error tracking using Sentry",
+          "Contributing to DevOps practices and infrastructure as code",
+          "Working with cross-platform development (Linux and Windows environments)"
+        ],
+        "tech_stack": "Python, JavaScript, TypeScript, Django, FastAPI, React, Bootstrap, Playwright, AWS (EC2, Lambda, EKS, S3, CloudWatch), Docker, Kubernetes, PostgreSQL, Sentry, Git, CI/CD, REST APIs, Shell Scripting, Node.js, Java, Rust, HTML5, CSS3"
+      },
+      {
         "company": "Freelancer",
         "role": "Freelancer",
         "period": "January 2017 - Present",
@@ -105,14 +126,16 @@
         "company": "IT-MSP",
         "role": "Information Technology Engineer and Software Developer",
         "period": "February 2023 - September 2023",
-        "description": "In February 2023, I joined IT-MSP as a Software Developer and IT Specialist, including automation and complex software development.",
+        "description": "In February 2023, I joined IT-MSP as a Software Developer and IT Specialist, including automation and complex software development. Developed an innovative AI-powered IT assistant system that automated routine IT tasks and improved support efficiency.",
         "responsibilities": [
           "Developing automated solutions using Python",
+          "Created and maintained Automated-IT-Macro-Player, an AI-powered tool for executing complex IT macros and automation sequences",
+          "Implemented chatbot integration for generating and executing automated action lists",
           "Web scraping",
           "Integrating ChatGPT API",
           "Conducting daily calls in English to assist with IT support"
         ],
-        "tech_stack": "Python, ChatGPT API, Selenium, SQLite"
+        "tech_stack": "Python, ChatGPT API, Selenium, SQLite, Automation, AI IT Assistant Development, Macro Automation"
       },
       {
         "company": "In-visible",
@@ -127,6 +150,27 @@
       }
     ],
     "pt": [
+      {
+        "company": "Tributo Devido",
+        "role": "Desenvolvedor de Software",
+        "period": "Janeiro 2025 - Presente",
+        "description": "Trabalhando como Desenvolvedor de Software na Tributo Devido, uma empresa fintech, onde contribuo para a construção de soluções de tecnologia financeira escaláveis e seguras. Minha função abrange desenvolvimento full-stack, práticas de DevOps e design de arquitetura de sistemas.",
+        "responsibilities": [
+          "Desenvolvimento e manutenção de microsserviços e aplicações monolíticas usando Python, Django, FastAPI e React",
+          "Implementação de soluções de automação usando Playwright para testes e otimização de processos",
+          "Projeto e gerenciamento de infraestrutura em nuvem na AWS (EC2, Lambda, EKS, S3, CloudWatch)",
+          "Configuração e manutenção de pipelines CI/CD para integração e implantação contínuas",
+          "Integração de soluções LLM e IA para aprimorar as capacidades do sistema",
+          "Gerenciamento de aplicações containerizadas usando Docker e Kubernetes",
+          "Implementação de designs frontend responsivos usando Bootstrap, TypeScript e CSS moderno",
+          "Desenvolvimento de APIs RESTful e garantia de escalabilidade do sistema",
+          "Realização de modelagem de dados e otimização de banco de dados com PostgreSQL",
+          "Implementação de monitoramento e rastreamento de erros usando Sentry",
+          "Contribuição para práticas de DevOps e infraestrutura como código",
+          "Trabalho com desenvolvimento multiplataforma (ambientes Linux e Windows)"
+        ],
+        "tech_stack": "Python, JavaScript, TypeScript, Django, FastAPI, React, Bootstrap, Playwright, AWS (EC2, Lambda, EKS, S3, CloudWatch), Docker, Kubernetes, PostgreSQL, Sentry, Git, CI/CD, APIs REST, Shell Scripting, Node.js, Java, Rust, HTML5, CSS3"
+      },
       {
         "company": "Freelancer",
         "role": "Freelancer",
@@ -173,14 +217,16 @@
         "company": "IT-MSP",
         "role": "Engenheiro de Tecnologia da Informação e Desenvolvedor de Software",
         "period": "Fevereiro 2023 - Setembro 2023",
-        "description": "Em fevereiro de 2023, ingressei na IT-MSP como Desenvolvedor de Software e Especialista em TI, incluindo automação e desenvolvimento de software complexo.",
+        "description": "Em fevereiro de 2023, ingressei na IT-MSP como Desenvolvedor de Software e Especialista em TI, incluindo automação e desenvolvimento de software complexo. Desenvolvi um sistema inovador de assistente de TI com IA que automatizou tarefas rotineiras de TI e melhorou a eficiência do suporte.",
         "responsibilities": [
           "Desenvolvimento de soluções automatizadas usando Python",
+          "Criação e manutenção do Automated-IT-Macro-Player, uma ferramenta com IA para executar macros e sequências de automação complexas",
+          "Implementação de integração com chatbot para gerar e executar listas de ações automatizadas",
           "Web scraping",
           "Integração da API ChatGPT",
           "Realização de chamadas diárias em inglês para auxiliar com suporte de TI"
         ],
-        "tech_stack": "Python, API ChatGPT, Selenium, SQLite"
+        "tech_stack": "Python, API ChatGPT, Selenium, SQLite, Automação, Desenvolvimento de Assistente de TI com IA, Automação de Macros"
       },
       {
         "company": "In-visible",
@@ -197,6 +243,12 @@
   },
   "education": {
     "en": [
+      {
+        "institution": "Senac Santa Catarina",
+        "degree": "Technologist, Technology Degree in Systems Analysis and Development",
+        "period": "2025 - 2027",
+        "description": "Currently pursuing a degree in Systems Analysis and Development. Key courses include Requirements Engineering, Data Modeling, Computing Fundamentals, and Systems Analysis and Development Extension I. Leveraging my 8 years of programming experience to focus on advanced topics and practical applications in software development."
+      },
       {
         "institution": "Enap - Data Analysis, and Programming",
         "degree": "",
@@ -223,6 +275,12 @@
       }
     ],
     "pt": [
+      {
+        "institution": "Senac Santa Catarina",
+        "degree": "Tecnólogo, Tecnologia em Análise e Desenvolvimento de Sistemas",
+        "period": "2025 - 2027",
+        "description": "Atualmente cursando Tecnologia em Análise e Desenvolvimento de Sistemas. Disciplinas principais incluem Engenharia de Requisitos, Modelagem de Dados, Fundamentos da Computação e Extensão em Análise e Desenvolvimento de Sistemas I. Aproveitando meus 8 anos de experiência em programação para focar em tópicos avançados e aplicações práticas em desenvolvimento de software."
+      },
       {
         "institution": "Enap - Análise de Dados e Programação",
         "degree": "",

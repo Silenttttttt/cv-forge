@@ -312,7 +312,12 @@ const PDFDocument = ({ data, language = 'en' }) => {
 
   return (
     <Document>
-      <Page size="A4" style={styles.page} wrap>
+      <Page 
+        size="A4" 
+        style={styles.page} 
+        wrap={true}
+        dpi={300}
+      >
         {/* Header Section */}
         <View style={styles.header}>
           <View style={styles.headerLeft}>

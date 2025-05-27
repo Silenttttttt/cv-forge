@@ -65,6 +65,9 @@ const App = () => {
             height: '100%', 
             border: 'none'
           }}
+          showToolbar={true}
+          width="100%"
+          height="100%"
         >
           <PDFDocument data={cvData} language={language} />
         </PDFViewer>
