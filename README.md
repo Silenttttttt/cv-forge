@@ -13,7 +13,7 @@ A modern, customizable CV/resume generator built with React that creates beautif
 
 ## Preview
 
-[CV Preview](muni-besen-en.pdf)
+[CV Preview](muni_besen_en.pdf)
 
 ## Installation
 
