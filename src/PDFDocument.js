@@ -56,6 +56,12 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     color: colors.primary,
   },
+  title: {
+    fontSize: 16,
+    fontWeight: 'normal',
+    marginBottom: 6,
+    color: colors.text,
+  },
   subtitle: {
     fontSize: 12,
     marginBottom: 10,
@@ -336,6 +342,7 @@ const PDFDocument = ({ data, language = 'en' }) => {
         <View style={styles.header}>
           <View style={styles.headerLeft}>
             <Text style={styles.name}>{basics.name}</Text>
+            {basics.title && <Text style={styles.title}>{basics.title}</Text>}
             <Text style={styles.subtitle}>{basics.country}</Text>
             
             {/* Social Links */}
@@ -446,6 +453,15 @@ const PDFDocument = ({ data, language = 'en' }) => {
           </View>
         </View>
 
+      </Page>
+
+      {/* Second Page - Languages and beyond */}
+      <Page 
+        size="A4" 
+        style={styles.page} 
+        wrap={true}
+        dpi={300}
+      >
         {/* Languages Section */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{titles.languages}</Text>
@@ -463,7 +479,7 @@ const PDFDocument = ({ data, language = 'en' }) => {
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>{titles.experience}</Text>
           {experience.map((job, index) => (
-            <View key={index} style={{ marginBottom: language === 'pt' ? 10 : 14 }} wrap={false}>
+            <View key={index} style={{ marginBottom: language === 'pt' ? 10 : 8 }}>
               <Text style={styles.jobCompany}>{job.company}</Text>
               <Text style={styles.jobRole}>{job.role}</Text>
               <Text style={styles.jobPeriod}>{job.period}</Text>
