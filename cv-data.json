@@ -81,6 +81,19 @@
   "experience": {
     "en": [
       {
+        "company": "Mondrio",
+        "role": "Senior Software Engineer",
+        "period": "March 2026 - Present",
+        "description": "Backend Engineer at Mondrio building a monetization knowledge graph platform that helps companies design, execute, and optimize pricing decisions. Working in a fully remote, async-first team, shipping features end-to-end from design to production.",
+        "responsibilities": [
+          "Building scalable APIs using Python, FastAPI, and MongoDB",
+          "Developing AI-powered pricing intelligence features",
+          "Designing data models and backend architecture",
+          "Deploying distributed services on GCP Cloud Run"
+        ],
+        "tech_stack": "Python, FastAPI, MongoDB, GCP Cloud Run, AI/ML"
+      },
+      {
         "company": "Tributo Devido",
         "role": "Senior Software Developer",
         "period": "January 2025 - Present",
@@ -171,6 +184,19 @@
       }
     ],
     "pt": [
+      {
+        "company": "Mondrio",
+        "role": "Engenheiro de Software Senior",
+        "period": "Março 2026 - Presente",
+        "description": "Engenheiro Backend na Mondrio, construindo uma plataforma de knowledge graph de monetização que ajuda empresas a projetar, executar e otimizar decisões de precificação. Trabalhando em uma equipe totalmente remota e assíncrona, entregando funcionalidades do design à produção.",
+        "responsibilities": [
+          "Construção de APIs escaláveis usando Python, FastAPI e MongoDB",
+          "Desenvolvimento de funcionalidades de inteligência de precificação com IA",
+          "Design de modelos de dados e arquitetura de backend",
+          "Implantação de serviços distribuídos no GCP Cloud Run"
+        ],
+        "tech_stack": "Python, FastAPI, MongoDB, GCP Cloud Run, IA/ML"
+      },
       {
         "company": "Tributo Devido",
         "role": "Desenvolvedor de Software Senior",
