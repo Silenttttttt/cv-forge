@@ -81,6 +81,49 @@
   "experience": {
     "en": [
       {
+        "company": "CyberTechnology",
+        "role": "Founder & Senior Software Engineer",
+        "period": "June 2026 - Present",
+        "description": "As Co-Founder, I lead the company's technology strategy and oversee the delivery of innovative software solutions for clients across a wide range of industries. My work spans technology consulting, custom software development, cybersecurity, process automation, cloud solutions, and digital transformation — from solution design and architecture through to implementation and deployment.",
+        "responsibilities": [
+          "Designing system architectures and leading technical projects end-to-end",
+          "Developing web applications, platforms, APIs, internal tools, and automation solutions",
+          "Promoting software engineering best practices, DevSecOps, and modern cloud infrastructure",
+          "Translating business challenges into effective technology solutions for clients",
+          "Managing multiple projects simultaneously across diverse industries",
+          "Driving continuous innovation through adoption of modern technologies and methodologies"
+        ],
+        "tech_stack": "React, TypeScript, Node.js, Python, Cloud Infrastructure (GCP/AWS), DevSecOps, CI/CD"
+      },
+      {
+        "company": "Globana, LLC",
+        "role": "Software Engineer",
+        "period": "June 2026 - Present",
+        "description": "Full-stack development on an AI-powered web platform built with React, TypeScript, and Node.js. Shipped API security improvements, automated government form workflows, and built a lightweight HTTP automation client to replace browser-based tooling — reducing infrastructure overhead significantly. Conducted a comprehensive security audit covering authentication, authorization, PII handling, and API surface. Contributed to cloud hosting architecture and infrastructure planning.",
+        "responsibilities": [
+          "Shipping API security improvements and hardening authentication flows",
+          "Automating government form workflows end-to-end",
+          "Building a lightweight HTTP automation client to replace browser-based tooling",
+          "Conducting comprehensive security audits (auth, authorization, PII, API surface)",
+          "Contributing to cloud hosting architecture and infrastructure planning"
+        ],
+        "tech_stack": "React, TypeScript, Node.js, Cloud Infrastructure"
+      },
+      {
+        "company": "Tydal Technologies",
+        "role": "Software Engineer",
+        "period": "April 2026 - Present",
+        "description": "Full-stack software engineering on a multi-tenant SaaS platform built with React, TypeScript, Node.js, and PostgreSQL. Built core product modules including inspection management workflows, real-time SMS notifications, and environmental compliance reporting integrations. Deployed cloud infrastructure on GCP using Pulumi (Infrastructure as Code). Led technical decisions from early prototype to production launch with live customers.",
+        "responsibilities": [
+          "Building inspection management workflows and core SaaS product modules",
+          "Integrating real-time SMS notification pipelines",
+          "Developing environmental compliance reporting features",
+          "Deploying and managing cloud infrastructure on GCP using Pulumi (IaC)",
+          "Leading technical decisions from prototype to production with live customers"
+        ],
+        "tech_stack": "React, TypeScript, Node.js, PostgreSQL, GCP Cloud Run, Pulumi"
+      },
+      {
         "company": "Mondrio",
         "role": "Senior Software Engineer",
         "period": "March 2026 - Present",
@@ -184,6 +227,49 @@
       }
     ],
     "pt": [
+      {
+        "company": "CyberTechnology",
+        "role": "Fundador & Engenheiro de Software Sênior",
+        "period": "Junho 2026 - Presente",
+        "description": "Como cofundador da empresa, lidero a estratégia tecnológica e o desenvolvimento de soluções inovadoras para clientes de diversos setores. Minha atuação é voltada para consultoria em tecnologia, desenvolvimento de software sob medida, cibersegurança, automação de processos, soluções em nuvem e iniciativas de transformação digital — da definição da arquitetura e planejamento até a implementação e deploy.",
+        "responsibilities": [
+          "Arquitetura de sistemas e liderança técnica dos projetos do início ao fim",
+          "Desenvolvimento de aplicações web, plataformas, APIs, ferramentas internas e soluções de automação",
+          "Promoção de boas práticas de engenharia de software, DevSecOps e infraestrutura em nuvem",
+          "Transformação de desafios de negócio em soluções tecnológicas eficientes para clientes",
+          "Coordenação de múltiplos projetos simultaneamente em setores diversos",
+          "Impulsionamento da inovação contínua por meio da adoção de novas tecnologias e metodologias"
+        ],
+        "tech_stack": "React, TypeScript, Node.js, Python, Infraestrutura em Nuvem (GCP/AWS), DevSecOps, CI/CD"
+      },
+      {
+        "company": "Globana, LLC",
+        "role": "Engenheiro de Software",
+        "period": "Junho 2026 - Presente",
+        "description": "Desenvolvimento full-stack em uma plataforma web alimentada por IA, construída com React, TypeScript e Node.js. Implementei melhorias de segurança na API, automatizei fluxos de trabalho com formulários governamentais e desenvolvi um cliente HTTP leve para substituir ferramentas de automação baseadas em navegador — reduzindo significativamente a infraestrutura. Realizei uma auditoria de segurança abrangente, cobrindo autenticação, autorização, tratamento de dados pessoais e superfície de API. Contribuí para a arquitetura de hospedagem em nuvem e planejamento de infraestrutura.",
+        "responsibilities": [
+          "Implementação de melhorias de segurança na API e hardening de autenticação",
+          "Automação de fluxos de trabalho com formulários governamentais",
+          "Desenvolvimento de cliente HTTP leve para substituir automação baseada em navegador",
+          "Realização de auditoria de segurança abrangente (autenticação, autorização, PII, API)",
+          "Contribuição para arquitetura de hospedagem em nuvem e planejamento de infraestrutura"
+        ],
+        "tech_stack": "React, TypeScript, Node.js, Infraestrutura em Nuvem"
+      },
+      {
+        "company": "Tydal Technologies",
+        "role": "Engenheiro de Software",
+        "period": "Abril 2026 - Presente",
+        "description": "Engenharia de software full-stack em uma plataforma SaaS multi-tenant construída com React, TypeScript, Node.js e PostgreSQL. Desenvolvi módulos centrais do produto, incluindo fluxos de gerenciamento de inspeção, notificações SMS em tempo real e integrações de relatórios de conformidade ambiental. Implantei infraestrutura em nuvem no GCP utilizando Pulumi (Infraestrutura como Código). Participei das decisões técnicas desde o protótipo inicial até o lançamento em produção com clientes reais.",
+        "responsibilities": [
+          "Desenvolvimento de fluxos de gerenciamento de inspeção e módulos centrais do produto SaaS",
+          "Integração de pipelines de notificação SMS em tempo real",
+          "Desenvolvimento de funcionalidades de relatórios de conformidade ambiental",
+          "Deploy e gerenciamento de infraestrutura em nuvem no GCP utilizando Pulumi (IaC)",
+          "Participação nas decisões técnicas do protótipo até o lançamento em produção com clientes reais"
+        ],
+        "tech_stack": "React, TypeScript, Node.js, PostgreSQL, GCP Cloud Run, Pulumi"
+      },
       {
         "company": "Mondrio",
         "role": "Engenheiro de Software Senior",
