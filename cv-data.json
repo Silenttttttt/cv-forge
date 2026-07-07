@@ -97,7 +97,7 @@
       },
       {
         "company": "Globana, LLC",
-        "role": "Software Engineer",
+        "role": "Senior Software Engineer",
         "period": "June 2026 - Present",
         "description": "Full-stack development on an AI-powered web platform built with React, TypeScript, and Node.js. Shipped API security improvements, automated government form workflows, and built a lightweight HTTP automation client to replace browser-based tooling — reducing infrastructure overhead significantly. Conducted a comprehensive security audit covering authentication, authorization, PII handling, and API surface. Contributed to cloud hosting architecture and infrastructure planning.",
         "responsibilities": [
@@ -111,7 +111,7 @@
       },
       {
         "company": "Tydal Technologies",
-        "role": "Software Engineer",
+        "role": "Senior Software Engineer",
         "period": "April 2026 - Present",
         "description": "Full-stack software engineering on a multi-tenant SaaS platform built with React, TypeScript, Node.js, and PostgreSQL. Built core product modules including inspection management workflows, real-time SMS notifications, and environmental compliance reporting integrations. Deployed cloud infrastructure on GCP using Pulumi (Infrastructure as Code). Led technical decisions from early prototype to production launch with live customers.",
         "responsibilities": [
@@ -244,7 +244,7 @@
       },
       {
         "company": "Globana, LLC",
-        "role": "Engenheiro de Software",
+        "role": "Engenheiro de Software Sênior",
         "period": "Junho 2026 - Presente",
         "description": "Desenvolvimento full-stack em uma plataforma web alimentada por IA, construída com React, TypeScript e Node.js. Implementei melhorias de segurança na API, automatizei fluxos de trabalho com formulários governamentais e desenvolvi um cliente HTTP leve para substituir ferramentas de automação baseadas em navegador — reduzindo significativamente a infraestrutura. Realizei uma auditoria de segurança abrangente, cobrindo autenticação, autorização, tratamento de dados pessoais e superfície de API. Contribuí para a arquitetura de hospedagem em nuvem e planejamento de infraestrutura.",
         "responsibilities": [
@@ -258,7 +258,7 @@
       },
       {
         "company": "Tydal Technologies",
-        "role": "Engenheiro de Software",
+        "role": "Engenheiro de Software Sênior",
         "period": "Abril 2026 - Presente",
         "description": "Engenharia de software full-stack em uma plataforma SaaS multi-tenant construída com React, TypeScript, Node.js e PostgreSQL. Desenvolvi módulos centrais do produto, incluindo fluxos de gerenciamento de inspeção, notificações SMS em tempo real e integrações de relatórios de conformidade ambiental. Implantei infraestrutura em nuvem no GCP utilizando Pulumi (Infraestrutura como Código). Participei das decisões técnicas desde o protótipo inicial até o lançamento em produção com clientes reais.",
         "responsibilities": [
