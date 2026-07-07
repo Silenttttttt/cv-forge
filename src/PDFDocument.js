@@ -3,7 +3,7 @@ import { Document, Page, Text, View, StyleSheet, Image, Font, Link } from '@reac
 // Import the config
 import { colors, tableStyles, textFormatting, sectionTitles, tableHeaders, contactOptions } from './config';
 // Import images
-import linkedinImage from '../public/images/god.png';
+import linkedinImage from '../public/images/linkedin.jpg';
 import whatsappImage from '../public/images/WhatsApp.png';
 
 // Register fonts (optional - uncomment and customize if you have font files)
